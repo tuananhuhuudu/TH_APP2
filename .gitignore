@@ -73,3 +73,35 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Backup files
+*.bak
+*.orig
+*.rej
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Build output
+*.apk
+*.aab
+*.keystore.properties
+
+# Claude Code
+.claude/
